@@ -103,7 +103,18 @@
       <artifactId>spring-test</artifactId>
       <version>4.1.7.RELEASE</version>
     </dependency>
+
+    <!-- HttpClient -->
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.3.6</version>
+    </dependency>
+
   </dependencies>
+
+
+
 
   <build>
     <finalName>rateLimiter</finalName>
