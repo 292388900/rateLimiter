@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="529eb1f5-a3c0-4bec-b9fb-f959c0e0db39" name="Default" comment="1、实现了rateLimiter 算法； 可以限制高QPS的请求；也可以作为通用访问限制器">
+    <list default="true" id="529eb1f5-a3c0-4bec-b9fb-f959c0e0db39" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xiaoxi/enums/Rate.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/rateLimiter/WEB-INF/classes/com/xiaoxi/enums/Rate.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xiaoxi/service/RateHandle.class" />
@@ -40,10 +40,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/rateLimiter/WEB-INF/lib/standard-1.1.2.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/xiaoxi/web/testRateLimit.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/rateLimiter/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/rateLimiter/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/rateLimiter/WEB-INF/classes/logback.xml" />
@@ -53,13 +49,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/rateLimiter/WEB-INF/classes/spring/spring-web.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/rateLimiter/WEB-INF/web.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="F:\My_Git_Project\rateLimiter\src\main\webapp\index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xiaoxi/web/RateLimit.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaoxi/web/RateLimit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rateLimiter.iml" afterPath="$PROJECT_DIR$/rateLimiter.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/rateLimiter_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/rateLimiter_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/xiaoxi/web/testRateLimit.java" afterPath="$PROJECT_DIR$/src/test/java/com/xiaoxi/web/testRateLimit.java" />
     </list>
     <ignored path="rateLimiter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -942,7 +931,7 @@
       <updated>1466821030083</updated>
       <workItem from="1466821034398" duration="3309000" />
       <workItem from="1466853256121" duration="3995000" />
-      <workItem from="1466857323309" duration="132000" />
+      <workItem from="1466857323309" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="1、实现了rateLimiter 算法； 可以限制高QPS的请求；也可以作为通用访问限制器">
       <created>1466824338913</created>
@@ -950,11 +939,17 @@
       <option name="project" value="LOCAL" />
       <updated>1466824338914</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="对restful接口进行一些更改">
+      <created>1466857528524</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1466857528524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7436000" />
+    <option name="totallyTimeSpent" value="7548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1456" height="916" extended-state="6" />
@@ -962,12 +957,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5028653" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2256447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938075" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -983,7 +979,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5343008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1002,7 +997,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、实现了rateLimiter 算法； 可以限制高QPS的请求；也可以作为通用访问限制器" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、实现了rateLimiter 算法； 可以限制高QPS的请求；也可以作为通用访问限制器" />
+    <MESSAGE value="对restful接口进行一些更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="对restful接口进行一些更改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1056,6 +1052,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,6 +1060,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1292#1307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,6 +1071,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#203#204#0" expanded="false" />
+            <element signature="e#235#236#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#293#294#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,6 +1131,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7407407">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#203#204#0" expanded="false" />
+            <element signature="e#235#236#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#293#294#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,6 +1169,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4857143">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,6 +1177,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2866941">
           <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1292#1307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,6 +1188,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3840878">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
